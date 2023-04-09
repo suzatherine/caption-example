@@ -1,0 +1,1 @@
+const output = [[0,1.357,"Good evening ladies and gentlemen"],[1.386,2.486,"we'd like to welcome you"],[2.487,4.343,"to Blue Danube radio's broadcast"],[4.344,4.98,"of the"]]
