@@ -16,7 +16,7 @@ const parseVTT = (inputFilePath, outputFilePath)=>{
     return parsedData
   }).then((parsedData)=>{
     const stringified = JSON.stringify(parsedData)
-    return fs.writeFile("output.js", `const output = ${stringified}`)
+    return fs.writeFile("output.js", `const cues = ${stringified}`)
   })
 
 }
